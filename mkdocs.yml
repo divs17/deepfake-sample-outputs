@@ -1,0 +1,9 @@
+site_name: DeepFake Sample Outputs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Image Samples: image.md
+  - Video Samples: video.md
+  - Audio Samples: audio.md
+
