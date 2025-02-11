@@ -1,3 +1,5 @@
+site_url: https://divs17.github.io/deepfake-sample-outputs/
+use_directory_urls: false
 site_name: DeepFake Sample Outputs
 theme:
   name: material
