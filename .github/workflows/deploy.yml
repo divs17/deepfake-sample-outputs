@@ -3,7 +3,7 @@ name: Deploy MkDocs site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Adjust this if your default branch is not "main"
+      - main
 
 jobs:
   deploy:
@@ -22,6 +22,6 @@ jobs:
       run: |
         pip install mkdocs-material
 
-    - name: Build and deploy
+    - name: Deploy to GitHub Pages
       run: |
-        mkdocs gh-deploy --force
+        mkdocs gh-deploy --force --remote-branch gh-pages
