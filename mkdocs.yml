@@ -8,4 +8,6 @@ nav:
   - Image Samples: image.md
   - Video Samples: video.md
   - Audio Samples: audio.md
+extra_css:
+  - assets/result.jpg
 
