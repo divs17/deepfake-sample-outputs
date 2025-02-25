@@ -1,5 +1,3 @@
-site_url: https://divs17.github.io/deepfake-sample-outputs/
-use_directory_urls: false
 site_name: DeepFake Sample Outputs
 theme:
   name: material
@@ -8,6 +6,19 @@ nav:
   - Image Samples: image.md
   - Video Samples: video.md
   - Audio Samples: audio.md
-extra_css:
-  - assets/result.jpg
 
+extra_javascript: []
+extra_css: []
+
+extra:
+  include_media:
+    - video/output-4.mp4
+    - video/output-5.mp4
+    - video/qwerty.mp4
+    - video/trump-dicaprio.mp4
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
