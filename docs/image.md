@@ -13,7 +13,7 @@ Here are some sample images generated using DeepFake technology.
 -----
 ![Sample Image 5](assets/Sample3.png)
 -----
-![Sample Image 6](assets/Sample4.png)
+![Sample Image 6](assets/Sample4.jpg)
 -----
 ![Sample Image 7](assets/Sample7.png)
 -----
